@@ -1,4 +1,4 @@
-# Controlling when Windows will reboot after Windows Updates apply
+# Win10ActiveHours
 
 You can control the time which you allow Windows to automatically reboot per Windows Update operations without disabling anything or forcefully stopping the Windows Update service. 
 
