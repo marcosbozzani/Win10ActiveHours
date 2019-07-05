@@ -53,7 +53,7 @@ There are four triggers that will active the tasks and switch between the two wi
  - daily at `06:00`
  - daily at `18:00`
 
-These are settings for the task:
+These are the settings for the task:
  - wake to run
  - start when available
  - don't stop on idle end
