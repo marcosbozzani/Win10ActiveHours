@@ -12,9 +12,11 @@ This script will not prevent any Windows Updates from being downloaded or instal
 
 3. Navigate to the downloaded script directory
 
-4. Run `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+4. Run `Unblock-File .\setup.ps1`
 
-5. Commands:
+5. Run `Set-ExecutionPolicy RemoteSigned -Scope Process`
+
+6. Commands:
     - `.\setup.ps1`: install the scheduled task
     - `.\setup.ps1 -run`: manually executes the scheduled task
     - `.\setup.ps1 -uninstall`: uninstall the scheduled task
