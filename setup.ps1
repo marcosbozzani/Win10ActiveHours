@@ -69,6 +69,11 @@ function UninstallTask {
     $task = GetTask
     if ($task) {
         $task | Unregister-ScheduledTask -Confirm:$false
+        $pathName = $TaskPath.Replace("\", "")
+        $scheduleObject = New-Object -ComObject Schedule.Service
+        $scheduleObject.Connect()
+        $rootFolder = $scheduleObject.GetFolder("\")
+        $rootFolder.DeleteFolder("$pathName", $null)
         Write-Output "$TaskPath$TaskName uninstalled"
     }
     else {
