@@ -1,3 +1,5 @@
+**If this helps you, don't forget to leave a Github Star and upvote at StackOverflow https://superuser.com/a/1456571/351521**
+
 # Win10ActiveHours
 
 You can control the time which you allow Windows to automatically reboot per Windows Update operations without disabling anything or forcefully stopping the Windows Update service. 
