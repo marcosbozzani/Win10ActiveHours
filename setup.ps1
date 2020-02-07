@@ -45,8 +45,9 @@ function InstallTask {
             -Execute "powershell" `
             -Argument "$arguments -EncodedCommand $command"
         Principal = New-ScheduledTaskPrincipal `
-            -UserId $env:USERNAME `
-            -LogonType S4U
+            -UserId "LOCALSERVICE" `
+            -LogonType ServiceAccount `
+            -RunLevel Highest
         Settings = New-ScheduledTaskSettingsSet `
             -WakeToRun `
             -StartWhenAvailable `
