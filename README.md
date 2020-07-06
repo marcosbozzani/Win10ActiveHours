@@ -6,6 +6,14 @@ You can control the time which you allow Windows to automatically reboot per Win
 
 This script will not prevent any Windows Updates from being downloaded or installed ever so OS security patches will still be applied to the system ― you just have it reboot when you're ready. 
 
+# Contributing
+
+Pull requests and Issues are welcome! 
+
+If this project is useful to you, don't forget to leave a Github Star
+
+### You can also [Buy me a coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SFM2FBMG9H9RQ&currency_code=USD) ☕
+
 # How to use
 
 1. Download the [setup.ps1](https://raw.githubusercontent.com/marcosbozzani/Win10ActiveHours/master/setup.ps1) script
